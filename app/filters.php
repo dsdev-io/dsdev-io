@@ -13,7 +13,10 @@
 
 App::before(function($request)
 {
-	//
+	if (Request::server('HTTP_HOST') == 'stage.dsdev.io')
+    {
+        return Redirect::to('http://dsdev.io');
+    }
 });
 
 
