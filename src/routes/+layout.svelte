@@ -11,7 +11,10 @@
   </main>
 
   <footer>
-    <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+    <small>
+      This is not the greatest page in the world; this is just a
+      <a href="https://www.youtube.com/watch?v=_lK4cX5xGiQ">Tribute</a>.
+    </small>
   </footer>
 </div>
 
@@ -37,6 +40,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     padding: 12px;
   }
