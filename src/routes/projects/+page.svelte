@@ -46,6 +46,7 @@
   }
   .tags {
     display: flex;
+    font-family: var(--font-mono);
     list-style: none;
     padding: 0;
   }
@@ -53,15 +54,15 @@
     background: var(--color-bg-2);
     border: 1px solid var(--color-bg-0);
     border-radius: 4px;
-      color: var(--color-theme-2);
-      cursor: default;
+    color: var(--color-theme-2);
+    cursor: default;
     padding: 4px 5px 2px;
     margin: 0 3px;
   }
   hr {
-      border-top: 1px solid var(--color-bg-0);
-      width: 105%;
-      margin-left: -2.5%;
-      padding: 0;
+    border-top: 1px solid var(--color-bg-0);
+    margin-left: -2.5%;
+    padding: 0;
+    width: 105%;
   }
 </style>
